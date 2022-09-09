@@ -1,0 +1,25 @@
+{
+  "name": "tp-nodejs",
+  "version": "1.0.0",
+  "description": "TP validation des acquis",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffroy-gaspard/TP-NODEJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoffroy-gaspard/TP-NODEJS/issues"
+  },
+  "homepage": "https://github.com/geoffroy-gaspard/TP-NODEJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
+}
