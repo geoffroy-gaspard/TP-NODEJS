@@ -30,6 +30,13 @@ class ContactRepository {
         delete contacts[id];
         await fs.writeFile('./contacts.json', JSON.stringify(contacts));
     };
+
+    // async modifyOne(id, contactObj) {
+    //     const contacts = await this.findAll();
+    //     delete contacts[id];
+    //     const data = JSON.stringify(Object.assign(contacts, contactObj));
+    //     await fs.writeFile('./contacts.json', data);
+    // };
 }
 
 module.exports = ContactRepository;

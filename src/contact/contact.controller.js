@@ -55,6 +55,16 @@ class ContactController {
             response.status(404).send(err.message);
         }
     };
+
+    // modify = async (request, response) => {
+    //     try {
+    //         const id = parseInt(request.params.id);
+    //         await this.contactService.modifyOne(id, request.body);
+    //         response.send("Contact modified successfuly");
+    //     } catch (err) {
+    //         response.status(404).send(err.message);
+    //     }
+    // };
 }
 
 module.exports.ContactController = ContactController;

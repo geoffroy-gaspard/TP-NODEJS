@@ -34,6 +34,14 @@ class ContactService {
         createObj[id] = contactObj;
         return this.contactRepository.updateOne(id, createObj);
     };
+
+    // async modifyOne(id, contactObj) {
+    //     const contact = await this.contactRepository.findOne(id);
+    //     if(!contact) throw new Error(`Cannot find contact with${id}`)
+    //     const createObj = {};
+    //     createObj[id] = contactObj;
+    //     return this.contactRepository.modifyOne(id, createObj);
+    // };
 }
 
 module.exports = ContactService;
